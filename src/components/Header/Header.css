@@ -1,0 +1,17 @@
+.header-container{
+    background-image: url("../../Photos/header-background.png"); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+@media screen and (max-width: 1000px){
+
+    .header-container{
+        height: 300px;
+    }
+}
